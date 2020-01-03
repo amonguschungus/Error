@@ -1,0 +1,415 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-opus'
+1 verbose cli ]
+2 info using npm@6.13.1
+3 info using node@v13.2.0
+4 verbose npm-session 557e2eb4dd3cf771
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/node-opus 172ms (from cache)
+8 silly pacote tag manifest for node-opus@latest fetched in 203ms
+9 timing stage:loadCurrentTree Completed in 312ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 16ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule node-opus@0.3.3 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/bindings 250ms (from cache)
+18 http fetch GET 304 https://registry.npmjs.org/ogg-packet 219ms (from cache)
+19 http fetch GET 304 https://registry.npmjs.org/commander 234ms (from cache)
+20 http fetch GET 304 https://registry.npmjs.org/nan 234ms (from cache)
+21 silly pacote range manifest for bindings@~1.2.1 fetched in 281ms
+22 silly resolveWithNewModule bindings@1.2.1 checking installable status
+23 silly pacote range manifest for ogg-packet@^1.0.0 fetched in 250ms
+24 silly resolveWithNewModule ogg-packet@1.0.1 checking installable status
+25 silly pacote range manifest for commander@^2.9.0 fetched in 250ms
+26 silly resolveWithNewModule commander@2.20.3 checking installable status
+27 silly pacote range manifest for nan@^2.14.0 fetched in 250ms
+28 silly resolveWithNewModule nan@2.14.0 checking installable status
+29 http fetch GET 304 https://registry.npmjs.org/ref-struct 47ms (from cache)
+30 silly pacote range manifest for ref-struct@* fetched in 47ms
+31 silly resolveWithNewModule ref-struct@1.1.0 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/ref 109ms (from cache)
+33 http fetch GET 304 https://registry.npmjs.org/debug 109ms (from cache)
+34 silly pacote range manifest for debug@2 fetched in 109ms
+35 silly resolveWithNewModule debug@2.6.9 checking installable status
+36 silly pacote range manifest for ref@1 fetched in 109ms
+37 silly resolveWithNewModule ref@1.3.5 checking installable status
+38 http fetch GET 304 https://registry.npmjs.org/ms 47ms (from cache)
+39 silly pacote version manifest for ms@2.0.0 fetched in 47ms
+40 silly resolveWithNewModule ms@2.0.0 checking installable status
+41 silly pacote range manifest for debug@2 fetched in 0ms
+42 silly resolveWithNewModule debug@2.6.9 checking installable status
+43 silly pacote version manifest for ms@2.0.0 fetched in 0ms
+44 silly resolveWithNewModule ms@2.0.0 checking installable status
+45 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 531ms
+46 timing stage:loadIdealTree Completed in 563ms
+47 silly currentTree JSBOT2
+47 silly currentTree +-- async-limiter@1.0.1
+47 silly currentTree +-- debug@2.6.9
+47 silly currentTree +-- discord.js@11.5.1
+47 silly currentTree +-- long@4.0.0
+47 silly currentTree +-- ms@2.0.0
+47 silly currentTree +-- prism-media@0.0.3
+47 silly currentTree +-- snekfetch@3.6.4
+47 silly currentTree +-- tweetnacl@1.0.1
+47 silly currentTree `-- ws@6.2.1
+48 silly idealTree JSBOT2
+48 silly idealTree +-- async-limiter@1.0.1
+48 silly idealTree +-- bindings@1.2.1
+48 silly idealTree +-- commander@2.20.3
+48 silly idealTree +-- discord.js@11.5.1
+48 silly idealTree +-- long@4.0.0
+48 silly idealTree +-- nan@2.14.0
+48 silly idealTree +-- node-opus@0.3.3
+48 silly idealTree +-- ogg-packet@1.0.1
+48 silly idealTree +-- prism-media@0.0.3
+48 silly idealTree +-- ref-struct@1.1.0
+48 silly idealTree | +-- debug@2.6.9
+48 silly idealTree | `-- ms@2.0.0
+48 silly idealTree +-- ref@1.3.5
+48 silly idealTree | +-- debug@2.6.9
+48 silly idealTree | `-- ms@2.0.0
+48 silly idealTree +-- snekfetch@3.6.4
+48 silly idealTree +-- tweetnacl@1.0.1
+48 silly idealTree `-- ws@6.2.1
+49 silly install generateActionsToTake
+50 timing stage:generateActionsToTake Completed in 16ms
+51 silly diffTrees action count 11
+52 silly diffTrees add bindings@1.2.1
+53 silly diffTrees add nan@2.14.0
+54 silly diffTrees move ms@2.0.0
+55 silly diffTrees move debug@2.6.9
+56 silly diffTrees add ms@2.0.0
+57 silly diffTrees add debug@2.6.9
+58 silly diffTrees add ref@1.3.5
+59 silly diffTrees add ref-struct@1.1.0
+60 silly diffTrees add commander@2.20.3
+61 silly diffTrees add ogg-packet@1.0.1
+62 silly diffTrees add node-opus@0.3.3
+63 silly decomposeActions action count 82
+64 silly decomposeActions fetch bindings@1.2.1
+65 silly decomposeActions extract bindings@1.2.1
+66 silly decomposeActions preinstall bindings@1.2.1
+67 silly decomposeActions build bindings@1.2.1
+68 silly decomposeActions install bindings@1.2.1
+69 silly decomposeActions postinstall bindings@1.2.1
+70 silly decomposeActions finalize bindings@1.2.1
+71 silly decomposeActions refresh-package-json bindings@1.2.1
+72 silly decomposeActions fetch nan@2.14.0
+73 silly decomposeActions extract nan@2.14.0
+74 silly decomposeActions preinstall nan@2.14.0
+75 silly decomposeActions build nan@2.14.0
+76 silly decomposeActions install nan@2.14.0
+77 silly decomposeActions postinstall nan@2.14.0
+78 silly decomposeActions finalize nan@2.14.0
+79 silly decomposeActions refresh-package-json nan@2.14.0
+80 silly decomposeActions move ms@2.0.0
+81 silly decomposeActions build ms@2.0.0
+82 silly decomposeActions install ms@2.0.0
+83 silly decomposeActions postinstall ms@2.0.0
+84 silly decomposeActions refresh-package-json ms@2.0.0
+85 silly decomposeActions move debug@2.6.9
+86 silly decomposeActions build debug@2.6.9
+87 silly decomposeActions install debug@2.6.9
+88 silly decomposeActions postinstall debug@2.6.9
+89 silly decomposeActions refresh-package-json debug@2.6.9
+90 silly decomposeActions fetch ms@2.0.0
+91 silly decomposeActions extract ms@2.0.0
+92 silly decomposeActions preinstall ms@2.0.0
+93 silly decomposeActions build ms@2.0.0
+94 silly decomposeActions install ms@2.0.0
+95 silly decomposeActions postinstall ms@2.0.0
+96 silly decomposeActions finalize ms@2.0.0
+97 silly decomposeActions refresh-package-json ms@2.0.0
+98 silly decomposeActions fetch debug@2.6.9
+99 silly decomposeActions extract debug@2.6.9
+100 silly decomposeActions preinstall debug@2.6.9
+101 silly decomposeActions build debug@2.6.9
+102 silly decomposeActions install debug@2.6.9
+103 silly decomposeActions postinstall debug@2.6.9
+104 silly decomposeActions finalize debug@2.6.9
+105 silly decomposeActions refresh-package-json debug@2.6.9
+106 silly decomposeActions fetch ref@1.3.5
+107 silly decomposeActions extract ref@1.3.5
+108 silly decomposeActions preinstall ref@1.3.5
+109 silly decomposeActions build ref@1.3.5
+110 silly decomposeActions install ref@1.3.5
+111 silly decomposeActions postinstall ref@1.3.5
+112 silly decomposeActions finalize ref@1.3.5
+113 silly decomposeActions refresh-package-json ref@1.3.5
+114 silly decomposeActions fetch ref-struct@1.1.0
+115 silly decomposeActions extract ref-struct@1.1.0
+116 silly decomposeActions preinstall ref-struct@1.1.0
+117 silly decomposeActions build ref-struct@1.1.0
+118 silly decomposeActions install ref-struct@1.1.0
+119 silly decomposeActions postinstall ref-struct@1.1.0
+120 silly decomposeActions finalize ref-struct@1.1.0
+121 silly decomposeActions refresh-package-json ref-struct@1.1.0
+122 silly decomposeActions fetch commander@2.20.3
+123 silly decomposeActions extract commander@2.20.3
+124 silly decomposeActions preinstall commander@2.20.3
+125 silly decomposeActions build commander@2.20.3
+126 silly decomposeActions install commander@2.20.3
+127 silly decomposeActions postinstall commander@2.20.3
+128 silly decomposeActions finalize commander@2.20.3
+129 silly decomposeActions refresh-package-json commander@2.20.3
+130 silly decomposeActions fetch ogg-packet@1.0.1
+131 silly decomposeActions extract ogg-packet@1.0.1
+132 silly decomposeActions preinstall ogg-packet@1.0.1
+133 silly decomposeActions build ogg-packet@1.0.1
+134 silly decomposeActions install ogg-packet@1.0.1
+135 silly decomposeActions postinstall ogg-packet@1.0.1
+136 silly decomposeActions finalize ogg-packet@1.0.1
+137 silly decomposeActions refresh-package-json ogg-packet@1.0.1
+138 silly decomposeActions fetch node-opus@0.3.3
+139 silly decomposeActions extract node-opus@0.3.3
+140 silly decomposeActions preinstall node-opus@0.3.3
+141 silly decomposeActions build node-opus@0.3.3
+142 silly decomposeActions install node-opus@0.3.3
+143 silly decomposeActions postinstall node-opus@0.3.3
+144 silly decomposeActions finalize node-opus@0.3.3
+145 silly decomposeActions refresh-package-json node-opus@0.3.3
+146 silly install executeActions
+147 silly doSerial global-install 82
+148 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+149 verbose makeCacheDir UID & GID are irrelevant on win32
+150 verbose lock using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\staging-2553e1f9fa0c59a5.lock for C:\Users\Administrator\Desktop\JSBOT2\node_modules\.staging
+151 silly doParallel extract 9
+152 silly extract bindings@1.2.1
+153 silly extract nan@2.14.0
+154 silly extract ms@2.0.0
+155 silly extract debug@2.6.9
+156 silly extract ref@1.3.5
+157 silly extract ref-struct@1.1.0
+158 silly extract commander@2.20.3
+159 silly extract ogg-packet@1.0.1
+160 silly extract node-opus@0.3.3
+161 silly tarball trying bindings@~1.2.1 by hash: sha1-FK1hE4EtLTfXLme0ystLtyZQXxE=
+162 silly tarball trying nan@^2.14.0 by hash: sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
+163 silly tarball trying ms@2.0.0 by hash: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+164 silly tarball trying debug@2 by hash: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+165 silly tarball trying ref@1 by hash: sha512-2cBCniTtxcGUjDpvFfVpw323a83/0RLSGJJY5l5lcomZWhYpU2cuLdsvYqMixvsdLJ9+sTdzEkju8J8ZHDM2nA==
+166 silly tarball trying ref-struct@* by hash: sha1-XV7mWtQc78Olxf60BYcmHkee3BM=
+167 silly tarball trying commander@^2.9.0 by hash: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
+168 silly tarball trying ogg-packet@^1.0.0 by hash: sha512-dW1ok3BMnMikyXGDIgVEckWnlViW8JLWQV4qj9aN/rNRVqHlDYSlcIEtSIMH7tpuUOiIxAhY3+OxNdIOm6s17A==
+169 silly tarball trying node-opus@latest by hash: sha512-ZQniA8iJ6y/qOTmW6eyzM9m8odt4CIGV0NM9/U03/pYLhGyxy18QXO25WfrWd8XsUYx57tnxll2xxj54CN08uQ==
+170 silly extract bindings@~1.2.1 extracted to C:\Users\Administrator\Desktop\JSBOT2\node_modules\.staging\bindings-36a951e1 (219ms)
+171 silly extract ms@2.0.0 extracted to C:\Users\Administrator\Desktop\JSBOT2\node_modules\.staging\ms-c04c46de (250ms)
+172 silly extract ogg-packet@^1.0.0 extracted to C:\Users\Administrator\Desktop\JSBOT2\node_modules\.staging\ogg-packet-5e632886 (266ms)
+173 timing audit submit Completed in 313ms
+174 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 313ms
+175 timing audit body Completed in 0ms
+176 silly extract ref-struct@* extracted to C:\Users\Administrator\Desktop\JSBOT2\node_modules\.staging\ref-struct-bea8bc48 (313ms)
+177 silly extract commander@^2.9.0 extracted to C:\Users\Administrator\Desktop\JSBOT2\node_modules\.staging\commander-ffce60fc (313ms)
+178 silly extract debug@2 extracted to C:\Users\Administrator\Desktop\JSBOT2\node_modules\.staging\debug-4191e91e (344ms)
+179 silly extract nan@^2.14.0 extracted to C:\Users\Administrator\Desktop\JSBOT2\node_modules\.staging\nan-53ec5c85 (516ms)
+180 silly extract ref@1 extracted to C:\Users\Administrator\Desktop\JSBOT2\node_modules\.staging\ref-ab70ea7c (532ms)
+181 silly extract node-opus@latest extracted to C:\Users\Administrator\Desktop\JSBOT2\node_modules\.staging\node-opus-5acde45a (2094ms)
+182 timing action:extract Completed in 2094ms
+183 silly doReverseSerial unbuild 82
+184 silly doSerial remove 82
+185 silly doSerial move 82
+186 silly move C:\Users\Administrator\Desktop\JSBOT2\node_modules\ms C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules\ms
+187 info lifecycle ms@2.0.0~preuninstall: ms@2.0.0
+188 info lifecycle ms@2.0.0~uninstall: ms@2.0.0
+189 verbose unbuild rmStuff ms@2.0.0 from C:\Users\Administrator\Desktop\JSBOT2\node_modules
+190 info lifecycle ms@2.0.0~postuninstall: ms@2.0.0
+191 silly move move existing destination node_modules away C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules\ms\node_modules
+192 silly move remove existing destination C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules\ms
+193 silly move make sure destination parent exists C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules
+194 silly move move source node_modules away C:\Users\Administrator\Desktop\JSBOT2\node_modules\ms\node_modules
+195 silly move move module dir to final dest C:\Users\Administrator\Desktop\JSBOT2\node_modules\ms C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules\ms
+196 info lifecycle ms@2.0.0~preinstall: ms@2.0.0
+197 silly move C:\Users\Administrator\Desktop\JSBOT2\node_modules\debug C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules\debug
+198 info lifecycle debug@2.6.9~preuninstall: debug@2.6.9
+199 info lifecycle debug@2.6.9~uninstall: debug@2.6.9
+200 verbose unbuild rmStuff debug@2.6.9 from C:\Users\Administrator\Desktop\JSBOT2\node_modules
+201 info lifecycle debug@2.6.9~postuninstall: debug@2.6.9
+202 silly move move existing destination node_modules away C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules\debug\node_modules
+203 silly move remove existing destination C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules\debug
+204 silly move make sure destination parent exists C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules
+205 silly move move source node_modules away C:\Users\Administrator\Desktop\JSBOT2\node_modules\debug\node_modules
+206 silly move move module dir to final dest C:\Users\Administrator\Desktop\JSBOT2\node_modules\debug C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules\debug
+207 info lifecycle debug@2.6.9~preinstall: debug@2.6.9
+208 timing action:move Completed in 16ms
+209 silly doSerial finalize 82
+210 silly finalize C:\Users\Administrator\Desktop\JSBOT2\node_modules\bindings
+211 silly finalize C:\Users\Administrator\Desktop\JSBOT2\node_modules\nan
+212 silly finalize C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref\node_modules\ms
+213 silly finalize C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref\node_modules\debug
+214 silly finalize C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref
+215 silly finalize C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct
+216 silly finalize C:\Users\Administrator\Desktop\JSBOT2\node_modules\commander
+217 silly finalize C:\Users\Administrator\Desktop\JSBOT2\node_modules\ogg-packet
+218 silly finalize C:\Users\Administrator\Desktop\JSBOT2\node_modules\node-opus
+219 timing action:finalize Completed in 31ms
+220 silly doParallel refresh-package-json 11
+221 silly refresh-package-json C:\Users\Administrator\Desktop\JSBOT2\node_modules\bindings
+222 silly refresh-package-json C:\Users\Administrator\Desktop\JSBOT2\node_modules\nan
+223 silly refresh-package-json C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules\ms
+224 silly refresh-package-json C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules\debug
+225 silly refresh-package-json C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref\node_modules\ms
+226 silly refresh-package-json C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref\node_modules\debug
+227 silly refresh-package-json C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref
+228 silly refresh-package-json C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct
+229 silly refresh-package-json C:\Users\Administrator\Desktop\JSBOT2\node_modules\commander
+230 silly refresh-package-json C:\Users\Administrator\Desktop\JSBOT2\node_modules\ogg-packet
+231 silly refresh-package-json C:\Users\Administrator\Desktop\JSBOT2\node_modules\node-opus
+232 timing action:refresh-package-json Completed in 125ms
+233 silly doParallel preinstall 9
+234 silly preinstall bindings@1.2.1
+235 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+236 silly preinstall nan@2.14.0
+237 info lifecycle nan@2.14.0~preinstall: nan@2.14.0
+238 silly preinstall ms@2.0.0
+239 info lifecycle ms@2.0.0~preinstall: ms@2.0.0
+240 silly preinstall debug@2.6.9
+241 info lifecycle debug@2.6.9~preinstall: debug@2.6.9
+242 silly preinstall ref@1.3.5
+243 info lifecycle ref@1.3.5~preinstall: ref@1.3.5
+244 silly preinstall ref-struct@1.1.0
+245 info lifecycle ref-struct@1.1.0~preinstall: ref-struct@1.1.0
+246 silly preinstall commander@2.20.3
+247 info lifecycle commander@2.20.3~preinstall: commander@2.20.3
+248 silly preinstall ogg-packet@1.0.1
+249 info lifecycle ogg-packet@1.0.1~preinstall: ogg-packet@1.0.1
+250 silly preinstall node-opus@0.3.3
+251 info lifecycle node-opus@0.3.3~preinstall: node-opus@0.3.3
+252 timing action:preinstall Completed in 0ms
+253 silly doSerial build 82
+254 silly build bindings@1.2.1
+255 info linkStuff bindings@1.2.1
+256 silly linkStuff bindings@1.2.1 has C:\Users\Administrator\Desktop\JSBOT2\node_modules as its parent node_modules
+257 silly build nan@2.14.0
+258 info linkStuff nan@2.14.0
+259 silly linkStuff nan@2.14.0 has C:\Users\Administrator\Desktop\JSBOT2\node_modules as its parent node_modules
+260 silly build ms@2.0.0
+261 info linkStuff ms@2.0.0
+262 silly linkStuff ms@2.0.0 has C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules as its parent node_modules
+263 silly build debug@2.6.9
+264 info linkStuff debug@2.6.9
+265 silly linkStuff debug@2.6.9 has C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref-struct\node_modules as its parent node_modules
+266 silly build ms@2.0.0
+267 info linkStuff ms@2.0.0
+268 silly linkStuff ms@2.0.0 has C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref\node_modules as its parent node_modules
+269 silly build debug@2.6.9
+270 info linkStuff debug@2.6.9
+271 silly linkStuff debug@2.6.9 has C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref\node_modules as its parent node_modules
+272 silly build ref@1.3.5
+273 info linkStuff ref@1.3.5
+274 silly linkStuff ref@1.3.5 has C:\Users\Administrator\Desktop\JSBOT2\node_modules as its parent node_modules
+275 silly build ref-struct@1.1.0
+276 info linkStuff ref-struct@1.1.0
+277 silly linkStuff ref-struct@1.1.0 has C:\Users\Administrator\Desktop\JSBOT2\node_modules as its parent node_modules
+278 silly build commander@2.20.3
+279 info linkStuff commander@2.20.3
+280 silly linkStuff commander@2.20.3 has C:\Users\Administrator\Desktop\JSBOT2\node_modules as its parent node_modules
+281 silly build ogg-packet@1.0.1
+282 info linkStuff ogg-packet@1.0.1
+283 silly linkStuff ogg-packet@1.0.1 has C:\Users\Administrator\Desktop\JSBOT2\node_modules as its parent node_modules
+284 silly build node-opus@0.3.3
+285 info linkStuff node-opus@0.3.3
+286 silly linkStuff node-opus@0.3.3 has C:\Users\Administrator\Desktop\JSBOT2\node_modules as its parent node_modules
+287 timing action:build Completed in 0ms
+288 silly doSerial global-link 82
+289 silly doParallel update-linked 0
+290 silly doSerial install 82
+291 silly install bindings@1.2.1
+292 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+293 silly install nan@2.14.0
+294 info lifecycle nan@2.14.0~install: nan@2.14.0
+295 silly install ms@2.0.0
+296 info lifecycle ms@2.0.0~install: ms@2.0.0
+297 silly install debug@2.6.9
+298 info lifecycle debug@2.6.9~install: debug@2.6.9
+299 silly install ms@2.0.0
+300 info lifecycle ms@2.0.0~install: ms@2.0.0
+301 silly install debug@2.6.9
+302 info lifecycle debug@2.6.9~install: debug@2.6.9
+303 silly install ref@1.3.5
+304 info lifecycle ref@1.3.5~install: ref@1.3.5
+305 verbose lifecycle ref@1.3.5~install: unsafe-perm in lifecycle true
+306 verbose lifecycle ref@1.3.5~install: PATH: C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref\node_modules\.bin;C:\Users\Administrator\Desktop\JSBOT2\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Amazon\cfn-bootstrap\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\ffmpeg\bin;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin
+307 verbose lifecycle ref@1.3.5~install: CWD: C:\Users\Administrator\Desktop\JSBOT2\node_modules\ref
+308 silly lifecycle ref@1.3.5~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+309 silly lifecycle ref@1.3.5~install: Returned: code: 1  signal: null
+310 info lifecycle ref@1.3.5~install: Failed to exec install script
+311 silly install commander@2.20.3
+312 info lifecycle commander@2.20.3~install: commander@2.20.3
+313 silly install node-opus@0.3.3
+314 info lifecycle node-opus@0.3.3~install: node-opus@0.3.3
+315 verbose lifecycle node-opus@0.3.3~install: unsafe-perm in lifecycle true
+316 verbose lifecycle node-opus@0.3.3~install: PATH: C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Administrator\Desktop\JSBOT2\node_modules\node-opus\node_modules\.bin;C:\Users\Administrator\Desktop\JSBOT2\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Amazon\cfn-bootstrap\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\ffmpeg\bin;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin
+317 verbose lifecycle node-opus@0.3.3~install: CWD: C:\Users\Administrator\Desktop\JSBOT2\node_modules\node-opus
+318 silly lifecycle node-opus@0.3.3~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+319 silly lifecycle node-opus@0.3.3~install: Returned: code: 1  signal: null
+320 info lifecycle node-opus@0.3.3~install: Failed to exec install script
+321 timing action:install Completed in 10625ms
+322 verbose unlock done using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\staging-2553e1f9fa0c59a5.lock for C:\Users\Administrator\Desktop\JSBOT2\node_modules\.staging
+323 timing stage:rollbackFailedOptional Completed in 406ms
+324 timing stage:runTopLevelLifecycles Completed in 14234ms
+325 silly saveTree JSBOT2
+325 silly saveTree +-- async-limiter@1.0.1
+325 silly saveTree +-- discord.js@11.5.1
+325 silly saveTree | +-- long@4.0.0
+325 silly saveTree | +-- prism-media@0.0.3
+325 silly saveTree | +-- snekfetch@3.6.4
+325 silly saveTree | +-- tweetnacl@1.0.1
+325 silly saveTree | `-- ws@6.2.1
+325 silly saveTree +-- long@4.0.0
+325 silly saveTree +-- node-opus@0.3.3
+325 silly saveTree | +-- bindings@1.2.1
+325 silly saveTree | +-- commander@2.20.3
+325 silly saveTree | +-- nan@2.14.0
+325 silly saveTree | `-- ogg-packet@1.0.1
+325 silly saveTree |   `-- ref-struct@1.1.0
+325 silly saveTree |     +-- debug@2.6.9
+325 silly saveTree |     | `-- ms@2.0.0
+325 silly saveTree |     `-- ref@1.3.5
+325 silly saveTree |       `-- debug@2.6.9
+325 silly saveTree |         `-- ms@2.0.0
+325 silly saveTree +-- prism-media@0.0.3
+325 silly saveTree +-- snekfetch@3.6.4
+325 silly saveTree +-- tweetnacl@1.0.1
+325 silly saveTree `-- ws@6.2.1
+326 warn enoent ENOENT: no such file or directory, open 'C:\Users\Administrator\Desktop\JSBOT2\package.json'
+327 verbose enoent This is related to npm not being able to find a file.
+328 warn discord.js@11.5.1 requires a peer of @discordjs/uws@^10.149.0 but none is installed. You must install peer dependencies yourself.
+329 warn JSBOT2 No description
+330 warn JSBOT2 No repository field.
+331 warn JSBOT2 No README data
+332 warn JSBOT2 No license field.
+333 warn optional SKIPPING OPTIONAL DEPENDENCY: ref@1.3.5 (node_modules\ref):
+334 warn optional SKIPPING OPTIONAL DEPENDENCY: ref@1.3.5 install: `node-gyp rebuild`
+334 warn optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+335 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+335 verbose optional Failed at the ref@1.3.5 install script.
+335 verbose optional SKIPPING OPTIONAL DEPENDENCY: This is probably not a problem with npm. There is likely additional logging output above.
+336 verbose stack Error: node-opus@0.3.3 install: `node-gyp rebuild`
+336 verbose stack Exit status 1
+336 verbose stack     at EventEmitter.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\index.js:332:16)
+336 verbose stack     at EventEmitter.emit (events.js:210:5)
+336 verbose stack     at ChildProcess.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+336 verbose stack     at ChildProcess.emit (events.js:210:5)
+336 verbose stack     at maybeClose (internal/child_process.js:1023:16)
+336 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:281:5)
+337 verbose pkgid node-opus@0.3.3
+338 verbose cwd C:\Users\Administrator\Desktop\JSBOT2
+339 verbose Windows_NT 10.0.17763
+340 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-opus"
+341 verbose node v13.2.0
+342 verbose npm  v6.13.1
+343 error code ELIFECYCLE
+344 error errno 1
+345 error node-opus@0.3.3 install: `node-gyp rebuild`
+345 error Exit status 1
+346 error Failed at the node-opus@0.3.3 install script.
+346 error This is probably not a problem with npm. There is likely additional logging output above.
+347 verbose exit [ 1, true ]
